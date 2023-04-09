@@ -9,7 +9,7 @@ interface FormValues {
     emailAddress: string;
 }
 
-export const FromikBasicPage = () => {
+export const FormikBasicPage = () => {
     
     const validate = ({firstName,lastName,emailAddress}:FormValues) => {
       const errors: FormikErrors<FormValues>= {}
